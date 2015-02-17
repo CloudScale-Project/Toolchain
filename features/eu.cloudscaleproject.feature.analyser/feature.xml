@@ -17,18 +17,6 @@
    </license>
 
    <includes
-         id="org.reclipse.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.somox.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.somox.modisco.feature"
-         version="0.0.0"/>
-
-   <includes
          id="de.uka.ipd.sdq.dialogs.feature"
          version="0.0.0"/>
 
@@ -181,14 +169,6 @@
          version="0.0.0"/>
 
    <includes
-         id="org.palladiosimulator.protocom.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.protocom.javaee.feature"
-         version="0.0.0"/>
-
-   <includes
          id="org.palladiosimulator.recorderframework.feature"
          version="0.0.0"/>
 
@@ -218,10 +198,6 @@
 
    <includes
          id="org.modelversioning.emfprofile.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.reclipse.feature"
          version="0.0.0"/>
 
    <includes

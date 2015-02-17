@@ -1,0 +1,1 @@
+# 16.2. Removed protocom features --> PalladioSimulator builds needs to be fixed - missing org.palladiosimulator.protocom.resourcestrategies.ee
