@@ -204,13 +204,13 @@
          id="org.scaledl.usageevolution.feature"
          version="0.0.0"/>
 
-   <includes
+   <!--includes
          id="org.scaledl.architecturaltemplates.examples.feature"
          version="0.0.0"/>
 
    <includes
          id="org.scaledl.architecturaltemplates.feature"
-         version="0.0.0"/>
+         version="0.0.0"/-->
 
    <includes
          id="LIMBO_DLIM"
