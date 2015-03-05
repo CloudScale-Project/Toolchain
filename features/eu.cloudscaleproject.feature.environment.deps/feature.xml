@@ -17,22 +17,6 @@
    </license>
 
    <includes
-         id="eu.cloudscaleproject.feature.analyser"
-         version="0.0.0"/>
-
-   <includes
-         id="eu.cloudscaleproject.feature.dynamicspotter"
-         version="0.0.0"/>
-
-   <includes
-         id="eu.cloudscaleproject.feature.extractor"
-         version="0.0.0"/>
-
-   <includes
-         id="eu.cloudscaleproject.feature.staticspotter"
-         version="0.0.0"/>
-
-   <includes
          id="org.eclipse.graphiti.export.feature"
          version="0.0.0"/>
 
@@ -50,10 +34,6 @@
 
    <includes
          id="org.eclipse.emf.compare"
-         version="0.0.0"/>
-
-   <includes
-         id="org.sonatype.tycho.m2e.feature"
          version="0.0.0"/>
 
    <plugin
