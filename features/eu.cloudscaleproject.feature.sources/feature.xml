@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="eu.cloudscaleproject.feature.sources"
+      label="Sources"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+
+   <includes
+         id="de.uka.ipd.sdq.dialogs.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.errorhandling.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.featuremodel.feature.config"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.featuremodel.feature.featureinstanceeditor"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.featuremodel.feature.model"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.identifier.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.pcm.diagram.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.pcm.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.pcm.resultdecorator.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.pcm.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.pcmsolver.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.probfunction.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.reliability.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.sensorframework.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.sensorframework.visualisation.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.simucom.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.simulation.abstractsimengine.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.statistics.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.stoex.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uka.ipd.sdq.units.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.commons.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.edp2.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.edp2.ui.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.experimentautomation.application.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.experimentautomation.application.tooladapter.simucom.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.experimentautomation.examples.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.experimentautomation.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.measurementframework.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.metricspec.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.recorderframework.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.servicelevelobjective.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.simulizar.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="edu.kit.ipd.sdq.mdsd.profiles.examples.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="edu.kit.ipd.sdq.mdsd.profiles.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.thirdpartywrapper.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.modelversioning.emfprofile.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.scaledl.architecturaltemplates.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.commons.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.edp2.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.edp2.ui.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.experimentautomation.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.protocom.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.somox.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.somox.modisco.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.reclipse.source.feature"
+         version="0.0.0"/>
+</feature>
