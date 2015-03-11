@@ -27,6 +27,7 @@ Package : mvn install
     <module>features/eu.cloudscaleproject.feature.extractor</module>
     <module>features/eu.cloudscaleproject.feature.staticspotter</module>
     <module>features/eu.cloudscaleproject.feature.dynamicspotter</module>
+    <module>features/eu.cloudscaleproject.feature.sources</module>
     <module>features/eu.cloudscaleproject.feature.environment.deps</module>
     <module>features/eu.cloudscaleproject.updatesite.toolchain</module>
 

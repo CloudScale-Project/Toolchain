@@ -45,10 +45,6 @@
          version="0.0.0"/>
 
    <includes
-         id="de.uka.ipd.sdq.pcm.diagram.source.feature"
-         version="0.0.0"/>
-
-   <includes
          id="de.uka.ipd.sdq.pcm.feature"
          version="0.0.0"/>
 
@@ -57,19 +53,7 @@
          version="0.0.0"/>
 
    <includes
-         id="de.uka.ipd.sdq.pcm.resultdecorator.source.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="de.uka.ipd.sdq.pcm.source.feature"
-         version="0.0.0"/>
-
-   <includes
          id="de.uka.ipd.sdq.pcmsolver.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="de.uka.ipd.sdq.pcmsolver.source.feature"
          version="0.0.0"/>
 
    <includes
@@ -78,10 +62,6 @@
 
    <includes
          id="de.uka.ipd.sdq.reliability.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="de.uka.ipd.sdq.reliability.source.feature"
          version="0.0.0"/>
 
    <includes
@@ -97,15 +77,7 @@
          version="0.0.0"/>
 
    <includes
-         id="de.uka.ipd.sdq.simucom.source.feature"
-         version="0.0.0"/>
-
-   <includes
          id="de.uka.ipd.sdq.simulation.abstractsimengine.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="de.uka.ipd.sdq.simulation.abstractsimengine.source.feature"
          version="0.0.0"/>
 
    <includes
@@ -181,10 +153,6 @@
          version="0.0.0"/>
 
    <includes
-         id="org.palladiosimulator.simulizar.source.feature"
-         version="0.0.0"/>
-
-   <includes
          id="edu.kit.ipd.sdq.mdsd.profiles.examples.feature"
          version="0.0.0"/>
 
@@ -221,31 +189,11 @@
          version="0.0.0"/>
 
    <includes
-         id="org.palladiosimulator.edp2.source.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.edp2.ui.source.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.experimentautomation.source.feature"
-         version="0.0.0"/>
-
-   <includes
          id="org.palladiosimulator.protocom.feature"
          version="0.0.0"/>
 
    <includes
          id="org.palladiosimulator.protocom.javaee.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.protocom.javaee.source.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.protocom.source.feature"
          version="0.0.0"/>
 
    <requires>

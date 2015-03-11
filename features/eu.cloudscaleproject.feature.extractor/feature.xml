@@ -56,8 +56,4 @@
          id="org.eclipse.modisco.xml.feature"
          version="0.0.0"/>
 
-   <includes
-         id="org.somox.modisco.feature"
-         version="0.0.0"/>
-
 </feature>
