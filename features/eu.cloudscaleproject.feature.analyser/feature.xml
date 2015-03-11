@@ -216,6 +216,38 @@
          id="LIMBO_DLIM"
          version="0.0.0"/>
 
+   <includes
+         id="org.palladiosimulator.commons.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.edp2.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.edp2.ui.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.experimentautomation.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.protocom.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.protocom.javaee.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.protocom.javaee.source.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.protocom.source.feature"
+         version="0.0.0"/>
+
    <requires>
       <import plugin="org.eclipse.core.runtime" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.ocl.ecore" version="3.0.0" match="greaterOrEqual"/>
