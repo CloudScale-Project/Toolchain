@@ -102,68 +102,7 @@
          id="de.uka.ipd.sdq.workflow.feature.mdsd"
          version="0.0.0"/>
 
-   <includes
-         id="org.palladiosimulator.commons.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.edp2.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.edp2.ui.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.experimentautomation.application.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.experimentautomation.application.tooladapter.simucom.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.experimentautomation.examples.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.experimentautomation.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.measurementframework.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.metricspec.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.recorderframework.feature"
-         version="0.0.0"/>
-
-   <includes id="org.palladiosimulator.recorderspec.feature" version="0.0.0"/>
-
-
-   <includes
-         id="org.palladiosimulator.servicelevelobjective.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.experimentanalysis.feature"
-         version="0.0.0"/>
-   <includes
-         id="org.palladiosimulator.monitorrepository.feature"
-         version="0.0.0"/>
-         
-   <includes id="org.palladiosimulator.simulizar.feature" version="0.0.0"/>
-   <includes id="org.palladiosimulator.simulizar.power.feature" version="0.0.0"/>
-   <includes id="org.palladiosimulator.simulizar.reconfiguration.qvto.feature" version="0.0.0"/>
-   <includes id="org.palladiosimulator.simulizar.reconfiguration.storzdiagram.feature" version="0.0.0"/>
+   
 
    <includes
          id="edu.kit.ipd.sdq.mdsd.profiles.examples.feature"
@@ -171,10 +110,6 @@
 
    <includes
          id="edu.kit.ipd.sdq.mdsd.profiles.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.palladiosimulator.thirdpartywrapper.feature"
          version="0.0.0"/>
 
    <includes
@@ -197,18 +132,34 @@
          id="LIMBO_DLIM"
          version="0.0.0"/>
 
-   <includes
-         id="org.palladiosimulator.commons.feature"
-         version="0.0.0"/>
 
-   <includes
-         id="org.palladiosimulator.protocom.feature"
-         version="0.0.0"/>
+<includes id="org.palladiosimulator.commons.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.edp2.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.edp2.ui.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.experimentautomation.application.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.experimentautomation.application.tooladapter.simucom.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.experimentautomation.examples.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.experimentautomation.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.measurementframework.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.measurementspec.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.metricspec.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.monitorrepository.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.probeframework.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.probespec.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.protocom.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.protocom.javaee.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.recorderframework.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.recorderspec.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.servicelevelobjective.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.simulizar.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.simulizar.power.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.simulizar.reconfiguration.qvto.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.simulizar.reconfiguration.storydiagram.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.thirdpartywrapper.feature" version="0.0.0"/>
 
-   <includes
-         id="org.palladiosimulator.protocom.javaee.feature"
-         version="0.0.0"/>
 
+  
    <plugin
          id="org.jscience"
          download-size="0"

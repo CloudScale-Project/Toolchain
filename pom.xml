@@ -40,7 +40,10 @@ Package : mvn install
 
 	<!-- Analyser - got this by installing Experiments updatesite -->
 	<repository><id>Monitor repository</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/monitorrepository/nightly/</url></repository>
+	<repository><id>Recorderspec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/recorderspec/nightly/</url></repository>
+	<repository><id>Measurementspec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/measurementspec/nightly/</url></repository>
 
+<repository><id>Probespec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/probespec/nightly</url></repository>
 	<repository><id>Buckminster</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/</url></repository>
 	<repository><id>Buckminster Build for EDP2 features</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/edp2/nightly/</url></repository>
 	<repository><id>Experiment Automation</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/experimentautomation/nightly/</url></repository>
