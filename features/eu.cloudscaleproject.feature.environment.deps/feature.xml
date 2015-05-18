@@ -67,6 +67,25 @@
       <import feature="org.eclipse.graphiti.sdk.feature" version="0.11.2.v20150204-0954"/>
       <import feature="org.eclipse.graphiti.sdk.plus.feature" version="0.11.2.v20150204-0954"/>
       <import feature="org.eclipse.graphiti.source.feature" version="0.11.2.v20150204-0954"/>
+      <import feature="org.eclipse.xtend.sdk" version="2.8.0.v201503090534"/>
+      <import feature="org.eclipse.xtext.runtime" version="2.8.0.v201503090534"/>
+      <import feature="org.eclipse.xtext.ui" version="2.8.0.v201503090534"/>
+      <import feature="org.eclipse.modisco.examples.feature" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.examples.source" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.infra.omg.feature" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.infra.omg.source" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.infrastructure.feature" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.infrastructure.source" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.java.cdo.feature" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.java.cdo.source" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.java.feature" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.java.source" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.jee.feature" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.jee.source" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.sdk.feature" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.sdk.source" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.xml.feature" version="0.12.2.201501021045"/>
+      <import feature="org.eclipse.modisco.xml.source" version="0.12.2.201501021045"/>
    </requires>
 
 </feature>

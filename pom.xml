@@ -39,19 +39,13 @@ Package : mvn install
 	<repository><id>org.scaledl.usageevolution.updatesite</id><layout>p2</layout><url>http://cloudscale.xlab.si/cse/updatesites/usageevolution/nightly/</url></repository>
 
 	<!-- Analyser - got this by installing Experiments updatesite -->
+	<repository><id>Monitor repository</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/monitorrepository/nightly/</url></repository>
+
 	<repository><id>Buckminster</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/</url></repository>
 	<repository><id>Buckminster Build for EDP2 features</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/edp2/nightly/</url></repository>
-	<repository><id>Composite Artifact Repository</id><layout>p2</layout><url>http://download.eclipse.org/modeling/m2t/xpand/updates/releases</url></repository>
-	<repository><id>Eclipse Modeling Framework (EMF) Releases Site</id><layout>p2</layout><url>http://download.eclipse.org/modeling/emf/emf/updates/releases/</url></repository>
 	<repository><id>Experiment Automation</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/experimentautomation/nightly/</url></repository>
 	<repository><id>guava-osgi metadata repository</id><layout>p2</layout><url>http://guava-osgi.googlecode.com/svn/trunk/repository</url></repository>
-	<repository><id>Luna</id><layout>p2</layout><url>http://download.eclipse.org/releases/luna</url></repository>
-	<repository><id>Luna-updates</id><layout>p2</layout><url>http://download.eclipse.org/releases/luna/201409261001</url></repository>
 	<repository><id>MDSD Profiles</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/mdsdprofiles/nightly</url></repository>
-	<repository><id>Orbit-R20120526062928</id><layout>p2</layout><url>http://download.eclipse.org/tools/orbit/downloads/drops/R20120526062928/repository/</url></repository>
-	<repository><id>Orbit-R20130827064939</id><layout>p2</layout><url>http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/</url></repository>
-	<repository><id>Orbit-R20140114142710</id><layout>p2</layout><url>http://download.eclipse.org/tools/orbit/downloads/drops/R20140114142710/repository/</url></repository>
-	<repository><id>Orbit-R20140525021250</id><layout>p2</layout><url>http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/</url></repository>
 	<repository><id>Palladio Commons - Buckminster Build</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/commons/nightly/</url></repository>
 	<repository><id>Palladio Commons - Buckminster Build 1.3</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/commons/releases/1.3</url></repository>
 	<repository><id>Palladio Feature Model</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/featuremodel/nightly/</url></repository>
@@ -63,26 +57,37 @@ Package : mvn install
 	<repository><id>Palladio Third-Party Wrapper</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/thirdpartywrapper/nightly/</url></repository>
 	<repository><id>Palladio Workflow Engine</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/workflowengine/nightly/</url></repository>
 	<repository><id>PCM Core - Buckminster Feature</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/palladio/nightly/</url></repository>
-	<repository><id>QVTo Build Site</id><layout>p2</layout><url>http://download.eclipse.org/mmt/qvto/updates/releases/3.4.0</url></repository>
 	<repository><id>Service Level Objectives</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/servicelevelobjectives/nightly/</url></repository>
 	<repository><id>Simulizer Buckminster Feature</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/simulizar/nightly</url></repository>
-	<repository><id>The Eclipse Project Updates</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.4</url></repository>
 	<repository><id>Limbo Update Site</id><layout>p2</layout><url>http://se2.informatik.uni-wuerzburg.de/eclipse/limbo/</url></repository>
 	<repository><id>Qvt Update Site</id><layout>p2</layout><url>http://www.ikv.de/qvt/update-site-indigo</url></repository>
-
+	<repository><id>Experiments analysis nightly</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/palladio/addons/experimentanalysis/nightly/</url></repository>
 
 	<!-- StaticSpotter --> 
 	<repository><id>Reclipse</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/reclipse/nightly/</url></repository>
 	<repository><id>SoMoX</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/somox/nightly</url></repository>
-	<repository><id>modeling.gmt.modisco Update Site</id><layout>p2</layout><url>http://download.eclipse.org/modeling/gmt/modisco/updates/release/</url></repository>
 	<repository><id>Update Site</id><layout>p2</layout><url>http://antlreclipse.sourceforge.net/updates/</url></repository>
 
 
 	<!-- CloudScale Deps  -->
-	<repository><id>org.eclipse.e4.core.tools.update</id><layout>p2</layout><url>http://download.vogella.com/luna/e4tools</url></repository>
-	<!--repository><id>org.sonatype.tycho.repository</id><layout>p2</layout><url>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.8.0/N/0.8.0.201409231215/</url></repository-->
+	<!-- Eclipse update-sites -->
+	<repository><id>Eclipse 4.4 Update</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.4/</url></repository>
+	<repository><id>Eclipse 4.4 Recomenders</id><layout>p2</layout><url>http://download.eclipse.org/recommenders/updates/stable</url></repository>
+	<repository><id>Luna</id><layout>p2</layout><url>http://download.eclipse.org/releases/luna/</url></repository>
+	<repository><id>Eclipse Modeling Framework (EMF) Releases Site</id><layout>p2</layout><url>http://download.eclipse.org/modeling/emf/emf/updates/releases/</url></repository>
 	<repository><id>Xtext All In One (Releases)</id><layout>p2</layout><url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases</url></repository>
+	<repository><id>QVTo Build Site</id><layout>p2</layout><url>http://download.eclipse.org/mmt/qvto/updates/releases/3.4.0</url></repository>
+	<repository><id>modeling.gmt.modisco Update Site</id><layout>p2</layout><url>http://download.eclipse.org/modeling/gmt/modisco/updates/release/</url></repository>
+	<repository><id>Composite Artifact Repository</id><layout>p2</layout><url>http://download.eclipse.org/modeling/m2t/xpand/updates/releases</url></repository>
 
+	<repository><id>Orbit-R20120526062928</id><layout>p2</layout><url>http://download.eclipse.org/tools/orbit/downloads/drops/R20120526062928/repository/</url></repository>
+	<repository><id>Orbit-R20130827064939</id><layout>p2</layout><url>http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/</url></repository>
+	<repository><id>Orbit-R20140114142710</id><layout>p2</layout><url>http://download.eclipse.org/tools/orbit/downloads/drops/R20140114142710/repository/</url></repository>
+	<repository><id>Orbit-R20140525021250</id><layout>p2</layout><url>http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/</url></repository>
+
+	<repository><id>EclipseLabs Update Site</id><layout>p2</layout><url>http://svn.codespot.com/a/eclipselabs.org/free-plugins/trunk/site/</url></repository>
+	<repository><id>osgi-jax-rs-connector</id><layout>p2</layout><url>http://hstaudacher.github.io/osgi-jax-rs-connector</url></repository>
+	
 </repositories>
  
   <build>
