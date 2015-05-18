@@ -25,6 +25,10 @@
          version="0.0.0"/>
 
    <includes
+         id="org.palladiosimulator.monitorrepository.feature"
+         version="0.0.0"/>
+
+   <includes
          id="de.uka.ipd.sdq.featuremodel.feature.config"
          version="0.0.0"/>
 
