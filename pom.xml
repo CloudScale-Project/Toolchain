@@ -42,8 +42,10 @@ Package : mvn install
 	<repository><id>Monitor repository</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/monitorrepository/nightly/</url></repository>
 	<repository><id>Recorderspec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/recorderspec/nightly/</url></repository>
 	<repository><id>Measurementspec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/measurementspec/nightly/</url></repository>
+	<repository><id>Simulizar Power repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/simulizarpower/nightly/</url></repository>
 
-<repository><id>Probespec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/probespec/nightly</url></repository>
+
+	<repository><id>Probespec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/probespec/nightly</url></repository>
 	<repository><id>Buckminster</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/</url></repository>
 	<repository><id>Buckminster Build for EDP2 features</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/edp2/nightly/</url></repository>
 	<repository><id>Experiment Automation</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/experimentautomation/nightly/</url></repository>
@@ -64,7 +66,10 @@ Package : mvn install
 	<repository><id>Simulizer Buckminster Feature</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/simulizar/nightly</url></repository>
 	<repository><id>Limbo Update Site</id><layout>p2</layout><url>http://se2.informatik.uni-wuerzburg.de/eclipse/limbo/</url></repository>
 	<repository><id>Qvt Update Site</id><layout>p2</layout><url>http://www.ikv.de/qvt/update-site-indigo</url></repository>
+
+	<!-- Palladio Addons -->
 	<repository><id>Experiments analysis nightly</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/palladio/addons/experimentanalysis/nightly/</url></repository>
+	<repository><id>DE.FZI Power repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/palladio/addons/power/nightly/</url></repository>
 
 	<!-- StaticSpotter --> 
 	<repository><id>Reclipse</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/reclipse/nightly/</url></repository>
