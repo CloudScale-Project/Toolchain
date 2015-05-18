@@ -25,6 +25,9 @@
          version="0.0.0"/>
 
    <includes
+         id="org.palladiosimulator.experimentanalysis.feature"
+         version="0.0.0"/>
+   <includes
          id="org.palladiosimulator.monitorrepository.feature"
          version="0.0.0"/>
 
