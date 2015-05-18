@@ -197,6 +197,13 @@
          id="org.palladiosimulator.protocom.source.feature"
          version="0.0.0"/>
 
+   <includes id="org.palladiosimulator.recorderspec.source.feature" version="0.0.0"/>
+   <includes id="org.palladiosimulator.servicelevelobjective.source.feature" version="0.0.0"/>
+   <includes id="org.palladiosimulator.simulizar.power.source.feature" version="0.0.0"/>
+   <includes id="org.palladiosimulator.simulizar.reconfiguration.qvto.source.feature" version="0.0.0"/>
+   <includes id="org.palladiosimulator.simulizar.reconfiguration.storzdiagram.source.feature" version="0.0.0"/>
+   
+   
    <includes
          id="org.somox.source.feature"
          version="0.0.0"/>

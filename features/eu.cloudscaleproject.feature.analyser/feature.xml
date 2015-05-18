@@ -24,12 +24,7 @@
          id="de.uka.ipd.sdq.errorhandling.feature"
          version="0.0.0"/>
 
-   <includes
-         id="org.palladiosimulator.experimentanalysis.feature"
-         version="0.0.0"/>
-   <includes
-         id="org.palladiosimulator.monitorrepository.feature"
-         version="0.0.0"/>
+
 
    <includes
          id="de.uka.ipd.sdq.featuremodel.feature.config"
@@ -151,13 +146,24 @@
          id="org.palladiosimulator.recorderframework.feature"
          version="0.0.0"/>
 
+   <includes id="org.palladiosimulator.recorderspec.feature" version="0.0.0"/>
+
+
    <includes
          id="org.palladiosimulator.servicelevelobjective.feature"
          version="0.0.0"/>
 
    <includes
-         id="org.palladiosimulator.simulizar.feature"
+         id="org.palladiosimulator.experimentanalysis.feature"
          version="0.0.0"/>
+   <includes
+         id="org.palladiosimulator.monitorrepository.feature"
+         version="0.0.0"/>
+         
+   <includes id="org.palladiosimulator.simulizar.feature" version="0.0.0"/>
+   <includes id="org.palladiosimulator.simulizar.power.feature" version="0.0.0"/>
+   <includes id="org.palladiosimulator.simulizar.reconfiguration.qvto.feature" version="0.0.0"/>
+   <includes id="org.palladiosimulator.simulizar.reconfiguration.storzdiagram.feature" version="0.0.0"/>
 
    <includes
          id="edu.kit.ipd.sdq.mdsd.profiles.examples.feature"
