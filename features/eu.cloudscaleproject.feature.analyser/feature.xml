@@ -75,8 +75,7 @@
    <includes id="org.scaledl.architecturaltemplates.feature" version="0.0.0"/>
 
    <includes id="LIMBO_DLIM" version="0.0.0"/>
-   <includes id="edu.kit.ipd.sdq.mdsd.profiles.examples.feature" version="0.0.0"/>
-   <includes id="edu.kit.ipd.sdq.mdsd.profiles.feature" version="0.0.0"/>
+   <includes id="org.palladiosimulator.mdsdprofiles.feature" version="0.0.0"/>
   
    <plugin
          id="org.jscience"
