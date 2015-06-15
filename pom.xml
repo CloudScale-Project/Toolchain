@@ -78,10 +78,9 @@ Package : mvn install
 
 	<!-- CloudScale Deps  -->
 	<!-- Eclipse update-sites -->
-	<repository><id>Eclipse 4.5 Update</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.5</url></repository>
+	<repository><id>Eclipse 4.4 Update</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.4</url></repository>
 	<repository><id>Eclipse 4.4 Recomenders</id><layout>p2</layout><url>http://download.eclipse.org/recommenders/updates/stable</url></repository>
-	<repository><id>Mars xxx</id><layout>p2</layout><url>http://download.eclipse.org/releases/mars/201506051000</url></repository>
-	<repository><id>Mars</id><layout>p2</layout><url>http://download.eclipse.org/releases/mars</url></repository>
+	<repository><id>Luna</id><layout>p2</layout><url>http://download.eclipse.org/releases/luna</url></repository>
 	<repository><id>Eclipse Modeling Framework (EMF) Releases Site</id><layout>p2</layout><url>http://download.eclipse.org/modeling/emf/emf/updates/releases/</url></repository>
 	<repository><id>Xtext All In One (Releases)</id><layout>p2</layout><url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases</url></repository>
 	<repository><id>QVTo Build Site</id><layout>p2</layout><url>http://download.eclipse.org/mmt/qvto/updates/releases/3.4.0</url></repository>
