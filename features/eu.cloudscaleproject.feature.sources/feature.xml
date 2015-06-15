@@ -41,6 +41,8 @@
 <includes id="org.palladiosimulator.simulizar.reconfiguration.storydiagram.source.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulizar.source.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.thirdpartywrapper.source.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.mdsdprofiles.source.feature" version="0.0.0"/>
+
 
 <includes id="de.uka.ipd.sdq.dialogs.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.errorhandling.source.feature" version="0.0.0"/>
@@ -62,10 +64,12 @@
 <includes id="de.uka.ipd.sdq.statistics.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.stoex.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.units.source.feature" version="0.0.0"/>
-<includes id="org.palladiosimulator.mdsdprofiles.source.feature" version="0.0.0"/>
 <includes id="org.modelversioning.emfprofile.source.feature" version="0.0.0"/>
 <includes id="org.scaledl.architecturaltemplates.source.feature" version="0.0.0"/>
 <includes id="org.somox.modisco.source.feature" version="0.0.0"/>
 <includes id="org.reclipse.source.feature" version="0.0.0"/>
+
+<includes id="org.scaledl.architecturaltemplates.examples.source.feature" version="0.0.0"/>
+<includes id="org.scaledl.architecturaltemplates.source.feature" version="0.0.0"/>
 
 </feature>
