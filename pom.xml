@@ -43,7 +43,7 @@ Package : mvn install
 	<repository><id>Recorderspec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/recorderspec/nightly/</url></repository>
 	<repository><id>Measurementspec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/measurementspec/nightly/</url></repository>
 
-<repository><id>Probespec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/probespec/nightly</url></repository>
+	<repository><id>Probespec repository</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/probespec/nightly</url></repository>
 	<repository><id>Buckminster</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/</url></repository>
 	<repository><id>Buckminster Build for EDP2 features</id><layout>p2</layout><url>http://sdqweb.ipd.kit.edu/eclipse/edp2/nightly/</url></repository>
 	<repository><id>Experiment Automation</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/experimentautomation/nightly/</url></repository>
@@ -64,7 +64,11 @@ Package : mvn install
 	<repository><id>Simulizer Buckminster Feature</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/simulizar/nightly</url></repository>
 	<repository><id>Limbo Update Site</id><layout>p2</layout><url>http://se2.informatik.uni-wuerzburg.de/eclipse/limbo/</url></repository>
 	<repository><id>Qvt Update Site</id><layout>p2</layout><url>http://www.ikv.de/qvt/update-site-indigo</url></repository>
+
+	<repository><id>Simulizar power</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/simulizarpower/nightly/</url></repository>
+
 	<repository><id>Experiments analysis nightly</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/palladio/addons/experimentanalysis/nightly/</url></repository>
+	<repository><id>Palladio addons power</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/palladio/addons/power/nightly</url></repository>
 
 	<!-- StaticSpotter --> 
 	<repository><id>Reclipse</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/reclipse/nightly/</url></repository>
@@ -74,9 +78,10 @@ Package : mvn install
 
 	<!-- CloudScale Deps  -->
 	<!-- Eclipse update-sites -->
-	<repository><id>Eclipse 4.4 Update</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.4/</url></repository>
+	<repository><id>Eclipse 4.5 Update</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.5</url></repository>
 	<repository><id>Eclipse 4.4 Recomenders</id><layout>p2</layout><url>http://download.eclipse.org/recommenders/updates/stable</url></repository>
-	<repository><id>Luna</id><layout>p2</layout><url>http://download.eclipse.org/releases/luna/</url></repository>
+	<repository><id>Mars xxx</id><layout>p2</layout><url>http://download.eclipse.org/releases/mars/201506051000</url></repository>
+	<repository><id>Mars</id><layout>p2</layout><url>http://download.eclipse.org/releases/mars</url></repository>
 	<repository><id>Eclipse Modeling Framework (EMF) Releases Site</id><layout>p2</layout><url>http://download.eclipse.org/modeling/emf/emf/updates/releases/</url></repository>
 	<repository><id>Xtext All In One (Releases)</id><layout>p2</layout><url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases</url></repository>
 	<repository><id>QVTo Build Site</id><layout>p2</layout><url>http://download.eclipse.org/mmt/qvto/updates/releases/3.4.0</url></repository>
