@@ -17,10 +17,13 @@
    </license>
 
 
-         
+
 <includes id="de.uka.ipd.sdq.dialogs.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.dsexplore.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.errorhandling.source.feature" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.featuremodel.feature.config.source" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.featuremodel.feature.featureinstanceeditor.source" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.featuremodel.feature.model.source" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.identifier.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.pcm.diagram.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.pcm.resultdecorator.source.feature" version="0.0.0"/>
@@ -35,6 +38,8 @@
 <includes id="de.uka.ipd.sdq.statistics.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.stoex.source.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.units.source.feature" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.workflow.feature.core.source" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.workflow.feature.mdsd.source" version="0.0.0"/>
 <includes id="edu.kit.ipd.sdq.pcm.simulation.scheduler.exact.source.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.commons.source.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.edp2.source.feature" version="0.0.0"/>
@@ -56,7 +61,7 @@
 <includes id="org.palladiosimulator.simulizar.reconfiguration.storydiagram.source.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulizar.source.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.thirdpartywrapper.source.feature" version="0.0.0"/>
-
+         
 <includes id="org.somox.modisco.source.feature" version="0.0.0"/>
 <includes id="org.reclipse.source.feature" version="0.0.0"/>
 
