@@ -17,17 +17,19 @@
    </license>
 
 <includes id="de.uka.ipd.sdq.dialogs.feature" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.dsexplore.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.errorhandling.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.featuremodel.feature.config" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.featuremodel.feature.config.source" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.featuremodel.feature.featureinstanceeditor" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.featuremodel.feature.featureinstanceeditor.source" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.featuremodel.feature.model" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.featuremodel.feature.model.source" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.identifier.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.pcm.diagram.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.pcm.feature" version="0.0.0"/>
-<includes id="de.uka.ipd.sdq.pcm.resultdecorator.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.pcmsolver.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.probfunction.feature" version="0.0.0"/>
-<includes id="de.uka.ipd.sdq.reliability.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.sensorframework.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.sensorframework.visualisation.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.simucom.feature" version="0.0.0"/>
@@ -36,9 +38,10 @@
 <includes id="de.uka.ipd.sdq.stoex.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.units.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.workflow.feature.core" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.workflow.feature.core.source" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.workflow.feature.mdsd" version="0.0.0"/>
+<includes id="de.uka.ipd.sdq.workflow.feature.mdsd.source" version="0.0.0"/>
 
-<includes id="org.palladiosimulator.mdsdprofiles.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.commons.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.edp2.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.edp2.ui.feature" version="0.0.0"/>
@@ -47,243 +50,45 @@
 <includes id="org.palladiosimulator.experimentautomation.application.tooladapter.simulizar.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.experimentautomation.examples.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.experimentautomation.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.license" version="0.0.0"/>
+<includes id="org.palladiosimulator.mdsdprofiles.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.measurementframework.feature" version="0.0.0"/>
-<includes id="org.palladiosimulator.measurementspec.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.metricspec.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.monitorrepository.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.probeframework.feature" version="0.0.0"/>
-<includes id="org.palladiosimulator.probespec.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.protocom.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.protocom.javaee.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.recorderframework.feature" version="0.0.0"/>
-<includes id="org.palladiosimulator.recorderspec.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.servicelevelobjective.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.simulation.abstractsimengine.ssj.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulizar.feature" version="0.0.0"/>
-<includes id="org.palladiosimulator.simulizar.power.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulizar.reconfiguration.qvto.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulizar.reconfiguration.storydiagram.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.thirdpartywrapper.feature" version="0.0.0"/>
-<includes id="de.fzi.power.feature" version="0.0.0"/>
 
-<includes id="org.modelversioning.emfprofile.feature" version="0.0.0"/>
-<includes id="org.scaledl.usageevolution.feature" version="0.0.0"/>
+<includes id="org.storydriven.core.feature" version="0.0.0"/>
+<includes id="org.storydriven.core.ui.feature" version="0.0.0"/>
+<includes id="org.storydriven.storydiagrams.buckminster" version="0.0.0"/>
+<includes id="org.storydriven.storydiagrams.diagram.feature" version="0.0.0"/>
+<includes id="org.storydriven.storydiagrams.editor.feature" version="0.0.0"/>
+<includes id="org.storydriven.storydiagrams.feature" version="0.0.0"/>
+<includes id="org.storydriven.storydiagrams.interpreter.feature" version="0.0.0"/>
+<includes id="org.storydriven.storydiagrams.ui.feature" version="0.0.0"/>
+
+<includes id="de.mdelab.sdm.interpreter.common.feature" version="0.0.0"/>
+<includes id="de.mdelab.sdm.interpreter.core.feature" version="0.0.0"/>
+<includes id="de.upb.swt.core.feature" version="0.0.0"/>
+<includes id="edu.kit.ipd.sdq.pcm.simulation.scheduler.exact.feature" version="0.0.0"/>
+<includes id="org.fujaba.commons.feature" version="0.0.0"/>
+
 <includes id="LIMBO_DLIM" version="0.0.0"/>
+<includes id="org.scaledl.usageevolution.feature" version="0.0.0"/>
+<includes id="org.scaledl.usageevolution.feature" version="0.0.0"/>
 
+<includes id="org.palladiosimulator.editors.feature" version="0.0.0"/>
 <includes id="org.scaledl.architecturaltemplates.examples.feature" version="0.0.0"/>
 <includes id="org.scaledl.architecturaltemplates.feature" version="0.0.0"/>
   
 
-
-
-
-   <plugin
-         id="org.jscience"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="javax.websocket"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.mdelab.sdm.interpreter.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.mdelab.sdm.interpreter.core.eclipse"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.mdelab.sdm.interpreter.ocl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.core.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.core.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.diagram"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.diagram.custom"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.diagram.interpreter"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.edit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.editor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.expressions"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.expressions.common"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.interpreter.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.interpreter.eclipse"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.storydriven.storydiagrams.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.fujaba.commons"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.upb.swt.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.upb.swt.core.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.upb.swt.core.ui.properties"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.palladiosimulator.probeframework"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.css"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.css"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.util"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.util"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.util.gui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.batik.util.gui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
 </feature>
