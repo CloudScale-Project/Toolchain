@@ -39,6 +39,8 @@ Package : mvn install
 
 	<!-- Analyser - aggregated update site (already includes "usage evolution") -->
 	<repository><id>Palladio-Simulator (Aggregate)</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/</url></repository>
+  
+  <repository><id>Thirdparty wrapper</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/thirdpartywrapper/nightly/</url></repository>
 
 	<!-- Extractor and StaticSpotter --> 
 	<repository><id>SoMoX</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/somox/nightly</url></repository>
