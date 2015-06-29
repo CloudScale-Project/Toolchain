@@ -2,7 +2,7 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-<!-- 
+<!--
 Use : -o for mvn offline mode (do not re-fetch repositories)
 Run : mvn tycho-eclipserun:eclipse-run ;; does not work
 Package : mvn install
@@ -39,10 +39,10 @@ Package : mvn install
 
 	<!-- Analyser - aggregated update site (already includes "usage evolution") -->
 	<repository><id>Palladio-Simulator (Aggregate)</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/</url></repository>
-  
+
   <repository><id>Thirdparty wrapper</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/thirdpartywrapper/nightly/</url></repository>
 
-	<!-- Extractor and StaticSpotter --> 
+	<!-- Extractor and StaticSpotter -->
 	<repository><id>SoMoX</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/somox/nightly</url></repository>
 	<repository><id>Reclipse</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/reclipse/nightly/</url></repository>
 	<repository><id>Update Site</id><layout>p2</layout><url>http://antlreclipse.sourceforge.net/updates/</url></repository>
@@ -50,9 +50,11 @@ Package : mvn install
 	<!-- CloudScale Environment deps - Luna 4.4 SP2  -->
 	<repository><id>Luna</id><layout>p2</layout><url>http://download.eclipse.org/releases/luna</url></repository>
 	<repository><id>Eclipse 4.4 Update</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.4</url></repository>
-	
+
+	<repository><id>Xtext and Xtend composite</id><layout>p2</layout><url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</url></repository>
+
   </repositories>
- 
+
   <build>
     <plugins>
 		<plugin>
@@ -108,12 +110,3 @@ Package : mvn install
 	</plugins>
   </build>
 </project>
-
-
-
-
-
-
-
-
-

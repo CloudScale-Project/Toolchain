@@ -17,6 +17,8 @@
    </license>
 
 <!-- Palladio Simulator -->
+<includes id="de.mdelab.sdm.interpreter.common.feature" version="0.0.0"/>
+<includes id="de.mdelab.sdm.interpreter.core.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.dialogs.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.dsexplore.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.errorhandling.feature" version="0.0.0"/>
@@ -24,20 +26,22 @@
 <includes id="de.uka.ipd.sdq.featuremodel.feature.featureinstanceeditor" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.featuremodel.feature.model" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.identifier.feature" version="0.0.0"/>
-<includes id="de.uka.ipd.sdq.pcm.diagram.feature" version="0.0.0"/>
-<includes id="de.uka.ipd.sdq.pcm.feature" version="0.0.0"/>
-<includes id="de.uka.ipd.sdq.pcmsolver.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.probfunction.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.sensorframework.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.sensorframework.visualisation.feature" version="0.0.0"/>
-<includes id="de.uka.ipd.sdq.simucom.feature" version="0.0.0"/>
-<includes id="de.uka.ipd.sdq.simulation.abstractsimengine.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.statistics.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.stoex.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.units.feature" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.workflow.feature.core" version="0.0.0"/>
 <includes id="de.uka.ipd.sdq.workflow.feature.mdsd" version="0.0.0"/>
+<includes id="de.upb.swt.core.feature" version="0.0.0"/>
+<includes id="edu.kit.ipd.sdq.pcm.simulation.scheduler.exact.feature" version="0.0.0"/>
+<includes id="LIMBO_DLIM" version="0.0.0"/>
+<includes id="org.fujaba.commons.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.analyzer.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.commons.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.editors.gmf.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.editors.tree.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.edp2.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.edp2.ui.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.experimentautomation.application.feature" version="0.0.0"/>
@@ -50,16 +54,21 @@
 <includes id="org.palladiosimulator.measurementframework.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.metricspec.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.monitorrepository.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.pcm.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.probeframework.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.protocom.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.protocom.javaee.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.recorderframework.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.reliability.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.servicelevelobjective.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.simucom.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulation.abstractsimengine.ssj.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulizar.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulizar.reconfiguration.qvto.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.simulizar.reconfiguration.storydiagram.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.solver.feature" version="0.0.0"/>
 <includes id="org.palladiosimulator.thirdpartywrapper.feature" version="0.0.0"/>
+<includes id="org.scaledl.usageevolution.feature" version="0.0.0"/>
 <includes id="org.storydriven.core.feature" version="0.0.0"/>
 <includes id="org.storydriven.core.ui.feature" version="0.0.0"/>
 <includes id="org.storydriven.storydiagrams.buckminster" version="0.0.0"/>
@@ -67,29 +76,21 @@
 <includes id="org.storydriven.storydiagrams.editor.feature" version="0.0.0"/>
 <includes id="org.storydriven.storydiagrams.feature" version="0.0.0"/>
 <includes id="org.storydriven.storydiagrams.interpreter.feature" version="0.0.0"/>
+<includes id="org.storydriven.storydiagrams.ui.feature" version="0.0.0"/>
 
-<includes id="org.fujaba.commons.feature" version="0.0.0"/>
-<includes id="de.mdelab.sdm.interpreter.common.feature" version="0.0.0"/>
-<includes id="de.mdelab.sdm.interpreter.core.feature" version="0.0.0"/>
-<includes id="de.upb.swt.core.feature" version="0.0.0"/>
-<includes id="edu.kit.ipd.sdq.pcm.simulation.scheduler.exact.feature" version="0.0.0"/>
-
-<!-- Usage Evolution -->
-<includes id="LIMBO_DLIM" version="0.0.0"/>
-<includes id="org.scaledl.usageevolution.feature" version="0.0.0"/>
 
 <!-- Architectural Templates -->
-<includes id="org.palladiosimulator.editors.feature" version="0.0.0"/>
+<!--includes id="org.palladiosimulator.editors.feature" version="0.0.0"/>
 <includes id="org.scaledl.architecturaltemplates.examples.feature" version="0.0.0"/>
-<includes id="org.scaledl.architecturaltemplates.feature" version="0.0.0"/>
-  
+<includes id="org.scaledl.architecturaltemplates.feature" version="0.0.0"/-->
+
 <!-- External deps -->
 <includes id="org.palladiosimulator.thirdpartywrapper.feature" version="0.0.0"/>
 <includes id="org.modelversioning.emfprofile.feature" version="0.0.0"/>
 <plugin id="javax.websocket" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
 
 <!--============================================================================================
- All Palladio Simulator plugins 
+ All Palladio Simulator plugins
  Many are from features (duplication, not a problem - they are not present 2times in update site),
  however some are standalone and all must be present in udpate-site (TODO: filter out deps plugins)
 =============================================================================================-->
@@ -101,22 +102,12 @@
 <plugin id="ch.ethz.iks.r_osgi.remote" version="0.0.0"/>
 <plugin id="com.ibm.icu" version="0.0.0"/>
 <plugin id="de.desmoj" version="0.0.0"/>
-<plugin id="de.fzi.se.accuracy" version="0.0.0"/>
-<plugin id="de.fzi.se.quality" version="0.0.0"/>
-<plugin id="de.fzi.se.quality.edit" version="0.0.0"/>
-<plugin id="de.fzi.se.quality.editor" version="0.0.0"/>
 <plugin id="de.ikv.medini.qvt.plugin" version="0.0.0"/>
 <plugin id="de.mdelab.sdm.interpreter.core" version="0.0.0"/>
 <plugin id="de.mdelab.sdm.interpreter.core.eclipse" version="0.0.0"/>
 <plugin id="de.mdelab.sdm.interpreter.ocl" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.codegen.simucontroller" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.codegen.simudatavisualisation.datatypes" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.completions" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.completions.edit" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.completions.editor" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.context" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.context.edit" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.context.editor" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.dialogs" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.dsexplore" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.dsexplore.analysis.cost" version="0.0.0"/>
@@ -138,12 +129,6 @@
 <plugin id="de.uka.ipd.sdq.featuremodel.editor" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.identifier" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.identifier.edit" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.markov" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcm" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcmbench.help" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcmbench.propertytabs" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcmbench.tabs" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcmbench.ui" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.codegen.m2m" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.codegen.simucom" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.cost" version="0.0.0"/>
@@ -152,9 +137,6 @@
 <plugin id="de.uka.ipd.sdq.pcm.designdecision" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.designdecision.edit" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.designdecision.editor" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcm.dialogs" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcm.edit" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcm.editor" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.gmf.allocation" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.gmf.allocation.custom" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.gmf.allocation.helper" version="0.0.0"/>
@@ -171,17 +153,11 @@
 <plugin id="de.uka.ipd.sdq.pcm.gmf.usage" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.gmf.usage.custom" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.gmf.usage.helper" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcm.resultdecorator" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcm.resultdecorator.edit" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.pcmsolver" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.pcm.stochasticexpressions" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.probfunction" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.probfunction.edit" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.probfunction.math" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.qvtrengine.medini" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.reliability.core" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.reliability.sensitivity" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.reliability.solver" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.scheduler" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.scheduler.configuration" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.scheduler.configuration.edit" version="0.0.0"/>
@@ -202,8 +178,6 @@
 <plugin id="de.uka.ipd.sdq.simulation" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.simulation.abstractsimengine" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.simulation.abstractsimengine.desmoj" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.spa" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.spa.basicsolver" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.statistics" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.stoex" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.stoex.analyser" version="0.0.0"/>
@@ -216,7 +190,6 @@
 <plugin id="de.uka.ipd.sdq.workflow.launchconfig" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.workflow.logging.console" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.workflow.mdsd" version="0.0.0"/>
-<plugin id="de.uka.ipd.sdq.workflow.pcm" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.workflow.ui" version="0.0.0"/>
 <plugin id="de.uka.ipd.sdq.workflow.workbench" version="0.0.0"/>
 <plugin id="de.upb.swt.core" version="0.0.0"/>
@@ -224,9 +197,6 @@
 <plugin id="de.upb.swt.core.ui.properties" version="0.0.0"/>
 <plugin id="edu.kit.ipd.sdq.pcm.simulation.scheduler.exact" version="0.0.0"/>
 <plugin id="javax.xml" version="0.0.0"/>
-<plugin id="LQNModel" version="0.0.0"/>
-<plugin id="LQNModel.edit" version="0.0.0"/>
-<plugin id="LQNModel.editor" version="0.0.0"/>
 <plugin id="org.apache.batik.css" version="0.0.0"/>
 <plugin id="org.apache.batik.util" version="0.0.0"/>
 <plugin id="org.apache.batik.util.gui" version="0.0.0"/>
@@ -238,21 +208,31 @@
 <plugin id="org.apache.jasper.glassfish" version="0.0.0"/>
 <plugin id="org.apache.lucene.analysis" version="0.0.0"/>
 <plugin id="org.apache.lucene.core" version="0.0.0"/>
-<plugin id="org.clapper.util" version="0.0.0"/>
 <plugin id="org.fujaba.commons" version="0.0.0"/>
-<plugin id="org.hibernate" version="0.0.0"/>
 <plugin id="org.jfree.jfreechart" version="0.0.0"/>
 <plugin id="org.jscience" version="0.0.0"/>
 <plugin id="org.opt4j" version="0.0.0"/>
-<plugin id="org.palladiosimulator.branding" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.accuracy" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.completions" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.quality" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.quality.edit" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.quality.editor" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.resultdecorator" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.resultdecorator.edit" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.resultdecorator.editor" version="0.0.0"/>
+<plugin id="org.palladiosimulator.analyzer.workflow" version="0.0.0"/>
 <plugin id="org.palladiosimulator.commons" version="0.0.0"/>
+<plugin id="org.palladiosimulator.editors.dialogs" version="0.0.0"/>
+<plugin id="org.palladiosimulator.editors.propertytabs" version="0.0.0"/>
+<plugin id="org.palladiosimulator.editors.tabs" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2.dao" version="0.0.0"/>
-<plugin id="org.palladiosimulator.edp2.dao.localfile" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2.datastream" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2.edit" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2.editor" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2.examples" version="0.0.0"/>
+<plugin id="org.palladiosimulator.edp2.repository.local" version="0.0.0"/>
+<plugin id="org.palladiosimulator.edp2.repository.local.edit" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2.ui" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2.util" version="0.0.0"/>
 <plugin id="org.palladiosimulator.edp2.visualization" version="0.0.0"/>
@@ -278,8 +258,13 @@
 <plugin id="org.palladiosimulator.monitorrepository.edit" version="0.0.0"/>
 <plugin id="org.palladiosimulator.monitorrepository.editor" version="0.0.0"/>
 <plugin id="org.palladiosimulator.monitorrepository.tests" version="0.0.0"/>
+<plugin id="org.palladiosimulator.pcm" version="0.0.0"/>
+<plugin id="org.palladiosimulator.pcm.edit" version="0.0.0"/>
+<plugin id="org.palladiosimulator.pcm.editor" version="0.0.0"/>
 <plugin id="org.palladiosimulator.pcm.edp2.measuringpoint" version="0.0.0"/>
 <plugin id="org.palladiosimulator.pcm.edp2.measuringpoint.edit" version="0.0.0"/>
+<plugin id="org.palladiosimulator.pcm.help" version="0.0.0"/>
+<plugin id="org.palladiosimulator.pcm.ui" version="0.0.0"/>
 <plugin id="org.palladiosimulator.probeframework" version="0.0.0"/>
 <plugin id="org.palladiosimulator.probeframework.probes.example" version="0.0.0"/>
 <plugin id="org.palladiosimulator.protocom" version="0.0.0"/>
@@ -289,10 +274,18 @@
 <plugin id="org.palladiosimulator.recorderframework" version="0.0.0"/>
 <plugin id="org.palladiosimulator.recorderframework.edp2" version="0.0.0"/>
 <plugin id="org.palladiosimulator.recorderframework.sensorframework" version="0.0.0"/>
+<plugin id="org.palladiosimulator.reliability" version="0.0.0"/>
+<plugin id="org.palladiosimulator.reliability.markov" version="0.0.0"/>
+<plugin id="org.palladiosimulator.reliability.markov.edit" version="0.0.0"/>
+<plugin id="org.palladiosimulator.reliability.markov.editor" version="0.0.0"/>
+<plugin id="org.palladiosimulator.reliability.sensitivity" version="0.0.0"/>
+<plugin id="org.palladiosimulator.reliability.sensitivity.edit" version="0.0.0"/>
+<plugin id="org.palladiosimulator.reliability.sensitivity.editor" version="0.0.0"/>
 <plugin id="org.palladiosimulator.servicelevelobjective" version="0.0.0"/>
 <plugin id="org.palladiosimulator.servicelevelobjective.edit" version="0.0.0"/>
 <plugin id="org.palladiosimulator.servicelevelobjective.editor" version="0.0.0"/>
 <plugin id="org.palladiosimulator.servicelevelobjective.edp2" version="0.0.0"/>
+<plugin id="org.palladiosimulator.simucom.reliability" version="0.0.0"/>
 <plugin id="org.palladiosimulator.simulation.abstractsimengine.ssj" version="0.0.0"/>
 <plugin id="org.palladiosimulator.simulizar" version="0.0.0"/>
 <plugin id="org.palladiosimulator.simulizar.action" version="0.0.0"/>
@@ -310,6 +303,16 @@
 <plugin id="org.palladiosimulator.simulizar.ui" version="0.0.0"/>
 <plugin id="org.palladiosimulator.simulizar.ui.perspective" version="0.0.0"/>
 <plugin id="org.palladiosimulator.simulizar.ui.wizards" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.context" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.context.edit" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.context.editor" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.lqn" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.lqn.edit" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.lqn.editor" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.reliability" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.spa" version="0.0.0"/>
+<plugin id="org.palladiosimulator.solver.spa.basicsolver" version="0.0.0"/>
 <plugin id="org.rosuda.JRI" version="0.0.0"/>
 <plugin id="org.scaledl.usageevolution" version="0.0.0"/>
 <plugin id="org.scaledl.usageevolution.edit" version="0.0.0"/>
@@ -339,6 +342,5 @@
 <plugin id="tools.descartes.dlim.generator" version="0.0.0"/>
 <plugin id="tools.descartes.dlim.generator.edit" version="0.0.0"/>
 <plugin id="tools.descartes.dlim.generator.editor" version="0.0.0"/>
-<plugin id="uc.ac.ucl.ee.flanagan" version="0.0.0"/>
 
 </feature>
