@@ -80,9 +80,9 @@
 
 
 <!-- Architectural Templates -->
-<!--includes id="org.palladiosimulator.editors.feature" version="0.0.0"/>
+<includes id="org.palladiosimulator.editors.feature" version="0.0.0"/>
 <includes id="org.scaledl.architecturaltemplates.examples.feature" version="0.0.0"/>
-<includes id="org.scaledl.architecturaltemplates.feature" version="0.0.0"/-->
+<includes id="org.scaledl.architecturaltemplates.feature" version="0.0.0"/>
 
 <!-- External deps -->
 <includes id="org.palladiosimulator.thirdpartywrapper.feature" version="0.0.0"/>
@@ -91,8 +91,8 @@
 
 <!--============================================================================================
  All Palladio Simulator plugins
- Many are from features (duplication, not a problem - they are not present 2times in update site),
- however some are standalone and all must be present in udpate-site (TODO: filter out deps plugins)
+ Many are from features (duplication, not a problem - they are not present twice in the update site),
+ however some are standalone and all must be present in the udpate-site (TODO: filter out deps plugins)
 =============================================================================================-->
 <!-- SSJ added through ThirdPartyWrapper - problem with OS dep
 <plugin id="ca.umontreal.iro.lecuyer.ssj" version="0.0.0"/>
