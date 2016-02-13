@@ -24,7 +24,7 @@ Package : mvn install
      Features and Update sites
  	-->
     <module>features/eu.cloudscaleproject.feature.analyser</module>
-    <module>features/eu.cloudscaleproject.feature.extractor</module>
+   <module>features/eu.cloudscaleproject.feature.extractor</module>
     <module>features/eu.cloudscaleproject.feature.staticspotter</module>
     <module>features/eu.cloudscaleproject.feature.dynamicspotter</module>
     <module>features/eu.cloudscaleproject.feature.sources</module>
@@ -47,9 +47,10 @@ Package : mvn install
 	<repository><id>Reclipse</id><layout>p2</layout><url>https://sdqweb.ipd.kit.edu/eclipse/reclipse/nightly/</url></repository>
 	<repository><id>Update Site</id><layout>p2</layout><url>http://antlreclipse.sourceforge.net/updates/</url></repository>
 
-	<!-- CloudScale Environment deps - Luna 4.4 SP2  -->
+	<!-- CloudScale Environment deps - Mars 4.5 SP1  -->
 	<repository><id>Mars</id><layout>p2</layout><url>http://download.eclipse.org/releases/mars</url></repository>
-	<repository><id>Eclipse 4.5 Update</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.5</url></repository>
+	<repository><id>Eclipse 4.4 Update</id><layout>p2</layout><url>http://download.eclipse.org/eclipse/updates/4.5</url></repository>
+    <repository><id>Eclipse Staging</id><layout>p2</layout><url>http://download.eclipse.org/releases/staging</url></repository>
 
 	<repository><id>Xtext and Xtend composite</id><layout>p2</layout><url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</url></repository>
 
@@ -84,11 +85,6 @@ Package : mvn install
             <ws>gtk</ws>
             <arch>x86</arch>
           </environment>
-          <!--environment>
-            <os>macosx</os>
-            <ws>cocoa</ws>
-            <arch>x86</arch>
-          </environment-->
           <environment>
             <os>macosx</os>
             <ws>cocoa</ws>
